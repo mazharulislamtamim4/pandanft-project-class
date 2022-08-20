@@ -1,0 +1,17 @@
+/*----------variables--------- */
+:root{
+--body-widht: 1920px;
+--container: 1200px;
+--text-primary-color:#ffffff ; /*white*/
+--text-second-color: #ADB9C7;
+--hover-menu-color: #0D99FF;
+--main-bg: #02050E;
+--second-bg: #1E50FF; /*green*/
+--border: #1E50FF;
+--dark: #272D37;
+--gray: #8F9CA9;
+--primary-font: 'Source Sans Pro', sans-serif;
+--second-font: 'Sarabun', sans-serif;
+--bg-blue:#1E50FF ;
+
+}

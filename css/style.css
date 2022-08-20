@@ -1,0 +1,34 @@
+@import './variables.css';
+@import './common.css';
+
+/*header */
+#main-header{
+padding: 8px 0;
+}
+
+#main-header .main-menu li {
+margin: 5px 15px;
+}
+#main-header .main-menu a {
+	color: var(--text-primary-color);
+	font-size: 1.25rem;
+	font-family: var(--second-font);
+	text-decoration: none;
+}
+
+#main-header .main-menu a:hover{
+	color: var(--hover-menu-color);
+}
+
+.right-inner-column .card{
+    --padding: 8px 12px;
+	width: 400px;
+    height: 536px;
+    padding: var(--padding);
+    background: var(--dark);
+    border-radius: 10px;
+}
+
+.right-inner-column .card img {
+	width: 100%;
+}
