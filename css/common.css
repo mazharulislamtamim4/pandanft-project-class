@@ -126,7 +126,10 @@ margin-bottom: 30px;
 margin-top:40px ;
 margin-bottom: 40px;
 }
-
+.my-6{
+margin-top:50px ;
+margin-bottom: 50px;
+}
 .mt-1{
 margin: 8px 0;
 }
@@ -197,14 +200,21 @@ font-size: 1.1rem ;
 	border-radius: 10px;
 }
 
+/*-=-------font family------------ */
 .fs-sarabun{
 	font-family: var(--second-font);
 }
+
+/*--------------font font-weight------------------ */
+
 .fw-bold{
 	font-weight: 700;
 }
 
-
+/* -------------text align -------------- */
+.text-center {
+	text-align: center;
+}
 /* --------components--------- */
 .btn{
 	color: var(--text-primary-color);
@@ -216,6 +226,7 @@ font-size: 1.1rem ;
 	padding: 10px 20px;
 	border-radius:10px ;
 	transition: background 0.4s ease;
+	cursor: pointer;
 }
 
 .outline-btn{
@@ -234,3 +245,16 @@ font-size: 1.1rem ;
 }
 
 
+/*common cards */
+ .common-card{
+    --padding: 10px 14px;
+	width: 400px;
+    height: 536px;
+    padding: var(--padding);
+    background: var(--dark);
+    border-radius: 10px;
+}
+
+.common-card img {
+	width: 100%;
+}
